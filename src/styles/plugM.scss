@@ -1,0 +1,19 @@
+#plug-title {
+    font-size: 3rem;
+}
+.fm-input,.fm-input:focus {
+    font-size:45px;
+    color:white;
+    background-color: black;
+    min-width: 100px;
+    max-height: 48px;
+}
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#242424,0);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgb(49, 49, 49); }
+}

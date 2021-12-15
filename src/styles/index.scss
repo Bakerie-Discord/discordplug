@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/bootstrap";
+@import "colors.scss";
+@import "fonts.scss";
+
+@import "nav.scss";
+@import "hero.scss";
+@import "plugM.scss";
+body {
+    background-color: black;
+}
+#tsparticles {
+    z-index: -2
+}
+$bg-black: black;

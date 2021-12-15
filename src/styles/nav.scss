@@ -1,0 +1,47 @@
+.relativeTest {
+    position:relative;
+    height:60px;
+    width: 48px
+}
+.brand-ico {
+    width: 100%;
+    height: 100%;
+}
+#nv-1 {
+    padding: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#winky {
+    border-radius: 50px;
+    background:#31373D;
+    height: 10%;
+    width: 30%;
+    position: absolute;
+    left: 53%;
+    top: 40%;
+}
+#winky:hover, #winky:focus, .relativeTest:hover #winky, .relativeTest:focus #winky {
+    animation: wink 1s;
+}
+@keyframes wink {
+    50% { height: 30%; }
+}
+// .start-btn {
+//     background: #2E73FF;
+//     font-family: inter, sans-serif;
+//     color: white;
+//     border: none;
+//     border-radius: 0px;
+//     padding-left:30px;
+//     padding-right:30px;
+//     transition: 0.25s;
+// }
+// .start-btn:hover,
+// .start-btn:focus {
+//     animation: pulse 1s;
+//     box-shadow: 0 0 0 2em rgba(#fff,0);
+// }
+// @keyframes pulse {
+//     0% { box-shadow: 0 0 0 0 #2151b3; }
+// }
