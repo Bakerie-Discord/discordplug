@@ -4,5 +4,5 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 module.exports = {
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-netlify`],
 }
