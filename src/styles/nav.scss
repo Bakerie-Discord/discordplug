@@ -20,9 +20,10 @@
     position: absolute;
     left: 53%;
     top: 40%;
+    animation-timing-function: ease-in-out;
 }
 #winky:hover, #winky:focus, .relativeTest:hover #winky, .relativeTest:focus #winky {
-    animation: wink 1s;
+    animation: wink 0.5s;
 }
 @keyframes wink {
     50% { height: 30%; }
