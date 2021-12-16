@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 import { Container, Stack } from "react-bootstrap"
 import {BsGithub, BsDiscord, BsPlug, BsFillLightningFill} from "react-icons/bs"
@@ -12,7 +13,7 @@ export default function HeroMenu() {
                 Plug in your Discord Profile to GitHub and other forum sites
             </h5>
             <Stack direction="horizontal" gap={3} className="justify-content-center">
-                <button className="create-btn btn-variant-blue">Plug <BsFillLightningFill style={{"marginLeft":"3px"}} size={20}/></button>{' '}
+                <Link to="/plug" className="create-btn btn-variant-blue">Plug <BsFillLightningFill style={{"marginLeft":"3px"}} size={20}/></Link>{' '}
                 <button className="create-btn btn-variant-gray">GitHub <BsGithub style={{"marginLeft":"3px"}} size={20}/></button>
                 <button className="create-btn btn-variant-gray">Discord <BsDiscord style={{"marginLeft":"3px"}} size={20}/></button>
             </Stack>
