@@ -1,6 +1,5 @@
 import React from "react";
 import { useRef } from "react";
-import { navigate } from "gatsby";
 
 import { Col, Container, Form, Row, FloatingLabel } from "react-bootstrap"
 import { BsArrowRight, BsFillPlugFill } from "react-icons/bs";
@@ -12,11 +11,11 @@ export default function PlugMenu() {
         var userID=userIDRef.current.value
         console.log(userID.trim())
         if (userID==null || userID.trim()==""){
-            console.log("dank")
-            userID="actualdankcoder"
+            console.log("No userid provided")
+            userID="488688724948025357"
         }
-        console.log("trying")
-        navigate(`/users/${userID}`)
+        console.log("Attempting to redirect")
+        window.location.replace(`https://api.bakerie.gq/theme-1/${userID}`)
     }
     return <Container fluid>
         <Row className="hero justify-content-center" align="center">
